@@ -1,0 +1,36 @@
+/* ***********Seletore Universal**********
+*{
+    border: 1px solid red;
+}
+/******************Seletor de Classe
+.verde{
+    color green
+}
+p.verde{
+    color: green;
+}
+/******************** Seletor ID/*
+#cabeçalho{
+    border: 1px solid red;
+}
+
+/********************Seletor Filho:
+ deve estar diretamento dentro do elemento
+li>a{
+    color: red;
+    text-decoration: none;
+}
+*/
+/*****************************Seletor descendente esta dentro
+li a {
+    color: green
+}
+/******************************Seletor Irmão Adjacente ; não esta dentro é o irmão posterior
+h1+p{
+    color: red;
+}
+*/
+/******************************Seletor Irmão Geral; pode estar em cima ou em baixo*/
+h1~p{
+    color: pink;
+}

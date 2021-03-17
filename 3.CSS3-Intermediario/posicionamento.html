@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <title>Posicionamentos (Static / Relative / Absolute e Fixed</title>
+    <meta charset="utf-8">
+        <style type="text/css">
+            h1 {
+                position: static;
+            }
+            p {
+                position: static;
+                width: 300px;
+                margin: 0px;
+            }
+            body {
+                background: #007fc7;
+            }
+
+            .absolute{ /* alinhamento baseado na posição inicial do container */
+                position:absolute;
+                border: 1px solid red;
+                top: 80px;
+                right: 20px;
+            }
+
+            .relative{
+                border: 1px solid red;
+                position: relative; /* propriedades de deslocamento baseado na posição inicial que ele teria*/
+                /* Top, Right, Bottom, Left*/
+                top: 0px; /*desce 20px*/
+                left: 0px;
+            }
+            .fixed{ /*deixa o elemento fixo na tela, baseado na janela do navegador*/
+                border: 1px solid red;
+                background: #f2f2f2;
+                position:fixed;
+                bottom: 0px;
+                right: 0px;
+            }
+            #container {
+                background: #fff;
+                width: 1000px;/* Tamanho do container
+                margin: 10px auto;
+                position: relative; /* passa a posicionar o conteudo com base no container
+                /*Margem superior e inferior de 10px, e nas laterais auto*/
+                position: relative;
+                
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>Posicionamento</h1>
+
+            <p class="fixed"> P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+            <p class="relative"> P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+            <p class="absolute"> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+            <p class="absolute"> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+            <p> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+            <p> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+            <p> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+            <p> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+
+            <p> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+
+            <p> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+
+            <p> P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada ante id lorem sollicitudin
+                porttitor. Nunc in rutrum sem. Curabitur malesuada congue accumsan. Pellentesque non mattis sapien. Integer
+                suscipit sapien dolor, in gravida quam placerat eu. Proin vitae arcu justo. Fusce mattis lectus ut quam
+                ornare vehicula. Etiam viverra est a velit vulputate, in interdum tellus luctus.
+            </p>
+
+
+
+
+        </div>
+
+    </body>
+
+
+
+</html>

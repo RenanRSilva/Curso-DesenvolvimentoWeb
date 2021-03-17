@@ -1,0 +1,12 @@
+/******************Herança e Especificidade*/
+*{
+color: red;
+}
+
+h2{
+    color: blue;
+}
+
+h2.verde{
+    color: green;
+}
