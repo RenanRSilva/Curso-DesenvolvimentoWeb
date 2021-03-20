@@ -6,60 +6,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-            /*Configuração da página*/
-            body, html{
-                margin: 0;
-                font: 16px "lato", sans-serif;
-                color: #777;
-                height: 100%; /* Truque parallax*/
-                border: 1px solid red;
-            }
-            
-            .conteudo{
-                color: #777;
-                background-color: white;
-                text-align: justify;
-                padding: 50px 80px;
-            }
-            /*Formatação texto*/
-            h3{
-                text-transform: uppercase;
-                color: #111;
-                text-align: center;
-            }
-            /*Efeito Paralalx
+        /*Configuração da página*/
+        body,
+        html {
+            margin: 0;
+            font: 16px "lato", sans-serif;
+            color: #777;
+            height: 100%;
+            /* Truque parallax*/
+            border: 1px solid red;
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        /*Formatação texto*/
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+
+        /*Efeito Paralalx
             ----------------------*/
-            .caixa1, .caixa2{
-                border: 1px solid red;
-                height: 100%;
-            }
-            
-            .caixa1{
+        .caixa1, .caixa2, .caixa3, .caixa4 {
+            position: relative;
+            border: 1px solid red;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /*Paralax*/
+        }
 
-            }
-            .imagem2{
+        .caixa1 {
+            background-image: url(imagens/imagem1.jpg);
+        }
 
-            }
+        .caixa2 {
+            background-image: url(imagens/imagem2.jpg);
+        }
+        .caixa3 {
+            background-image: url(imagens/imagem3.jpg);
+        }
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+        }
+        .conteudo-titulo{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            color: #fff;
+            text-align: center;
+        }
+        .conteudo-titulo span.titulo{
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
     </style>
     <title>Parallax</title>
 </head>
 
 <body>
-    <div>
-        Conteudo 1
-    </div>
     <div class="caixa1">
-        caixa1
+        <div class="conteudo-titulo">
+            <span class="titulo">PASSEIO DE BALÕES</span>
+        </div>
     </div>
-    
+
     <div class="conteudo">
         <h3>Parallax</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo dolore accusamus corporis eius
             soluta ipsam voluptates corrupti asperiores. Ex et sint cupiditate omnis obcaecati, quisquam animi
-            laudantium alias similique.</p>
+            laudantium alias similique Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellat, aliquam
+            perspiciatis laboriosam cum fugiat, expedita culpa rerum consectetur itaque similique doloremque praesentium
+            eaque tenetur obcaecati labore, ipsa non dolores!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo dolore accusamus corporis eius
+            soluta ipsam voluptates corrupti asperiores. Ex et sint cupiditate omnis obcaecati, quisquam animi
+            laudantium alias similique Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellat, aliquam
+            perspiciatis laboriosam cum fugiat, expedita culpa rerum consectetur itaque similique doloremque praesentium
+            eaque tenetur obcaecati labore, ipsa non dolores!</p>
     </div>
     <div class="caixa2">
-        caixa2
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo dolore accusamus corporis eius
+            soluta ipsam voluptates corrupti asperiores. Ex et sint cupiditate omnis obcaecati, quisquam animi
+            laudantium alias similique Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellat, aliquam
+            perspiciatis laboriosam cum fugiat, expedita culpa rerum consectetur itaque similique doloremque praesentium
+            eaque tenetur obcaecati labore, ipsa non dolores!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo dolore accusamus corporis eius
+            soluta ipsam voluptates corrupti asperiores. Ex et sint cupiditate omnis obcaecati, quisquam animi
+            laudantium alias similique Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellat, aliquam
+            perspiciatis laboriosam cum fugiat, expedita culpa rerum consectetur itaque similique doloremque praesentium
+            eaque tenetur obcaecati labore, ipsa non dolores!</p>
+    </div>
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Ar livre</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo dolore accusamus corporis eius
+            soluta ipsam voluptates corrupti asperiores. Ex et sint cupiditate omnis obcaecati, quisquam animi
+            laudantium alias similique Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellat, aliquam
+            perspiciatis laboriosam cum fugiat, expedita culpa rerum consectetur itaque similique doloremque praesentium
+            eaque tenetur obcaecati labore, ipsa non dolores!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo dolore accusamus corporis eius
+            soluta ipsam voluptates corrupti asperiores. Ex et sint cupiditate omnis obcaecati, quisquam animi
+            laudantium alias similique Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellat, aliquam
+            perspiciatis laboriosam cum fugiat, expedita culpa rerum consectetur itaque similique doloremque praesentium
+            eaque tenetur obcaecati labore, ipsa non dolores!</p>
+    </div>
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pegando a Estrada</span>
+        </div>
     </div>
 </body>
 
