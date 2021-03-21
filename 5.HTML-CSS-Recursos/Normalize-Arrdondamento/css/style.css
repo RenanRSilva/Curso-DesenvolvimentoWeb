@@ -4,7 +4,7 @@
     background: #b9c941;
     padding: 50px;
     -webkit-border-radius: 180px;
-    -moz-border-radius: 180px;
+    border-radius: 180px;
     margin: 10px;
     box-sizing: border-box;
 }
