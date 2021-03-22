@@ -4,3 +4,5 @@
 
 ![tecblog.PNG](images/tecblog.PNG "tecblog")
 ![chalehotel.PNG](images/chalehotel.PNG "chalehotel")
+![museu.PNG](images/museu.PNG "museu")
+![noticias.PNG](noticias/museu.PNG "noticias")
