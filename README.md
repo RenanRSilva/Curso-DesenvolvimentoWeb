@@ -1,6 +1,4 @@
-# Meus estudo curso desenvolvimento WEB completo
-
->Colocando tudo aquilo que aprendo no curso em pratica
+# My studies and projects using HTML, CSS, JavaScript and Bootstrap
 
 ![tecblog.PNG](images/tecblog.PNG "tecblog")
 ![chalehotel.PNG](images/chalehotel.PNG "chalehotel")
