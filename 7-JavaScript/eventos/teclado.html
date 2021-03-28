@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Teclado</title>
+    <script>
+    function acao1() {
+        alert('evento onkeydown')
+    }
+    function acao2() {
+        alert('evento onkeyup')
+    }
+    function acao3() {
+        alert('evento onkeyup')
+    }
+    </script>
+</head>
+<body>
+    <input onkeydown="acao1()" type="text"> <!--Pode verificar o caracter antes dele ser exibido-->
+    <input onkeyup="acao2()" type="text"> <!--Após a tecla ser exibida-->
+    <input onkeypress="acao3()" type="text"> <!--Só é disparado se a tecla for caracter-->
+</body>
+</html>
