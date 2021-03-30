@@ -10,3 +10,6 @@
 ![finans2.PNG](images/finans2.PNG "finans2")
 ![spotfy.PNG](images/spotfy.PNG "spotfy")
 ![spotfy2.PNG](images/spotfy2.PNG "spotfy2")
+
+# JavaScript
+![matamosquito.PNG](images/matamosquito.PNG "matamosquito")
