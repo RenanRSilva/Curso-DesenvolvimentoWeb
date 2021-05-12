@@ -1,0 +1,7 @@
+:root{/*Criação de variáveis globais*/
+  --primary-color: #0A1128;
+  --white-color: #FFFFFF;
+  --light-gray-color: #EEEEEE;
+  --secondaty-color: crimson;
+  --gap: 3rem;
+}
