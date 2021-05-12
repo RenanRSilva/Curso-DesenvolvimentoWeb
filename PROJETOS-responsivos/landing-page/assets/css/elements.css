@@ -10,7 +10,8 @@ font-family: 'Open Sans', sans-serif;
 */
 
 html {
-  font-size: 62,5;
+  font-size: 62,5%;
+  scroll-behavior: smooth;/*Rolar devagarzinho*/
 }
 
 body {
@@ -29,7 +30,10 @@ h1{
   text-transform: uppercase;
 }
 h2{
-  font-size: 5.5rem;
+  font-size: 8rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 h3{
   font-size: 5rem;
@@ -46,4 +50,8 @@ h6{
 
 a{
   text-decoration: none;
+}
+
+p {
+  margin-bottom: 3rem;
 }
