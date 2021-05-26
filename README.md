@@ -5,7 +5,7 @@
 * Fundamentos HTML
 * CSS do basico ao avançado
 * Bootstrap
-* JavaScript ES
+* JavaScript ES6
 
 # Projetos desenvolvidos:
 ## Páginas fluidas e estáticas
